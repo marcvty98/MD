@@ -1,6 +1,3 @@
-// PID motor position control.
-// Thanks to Brett Beauregard for his nice PID library http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/
-
 #include <PinChangeInt.h>
 #include <Wire.h>
 #include <PID_v1.h>
@@ -22,7 +19,7 @@ void setup() {
   
   myPID.SetMode(AUTOMATIC);
   myPID.SetSampleTime(1);
-  myPID.SetOutputLimits(-255, 255);
+  myPID.SetOutputLimits(-63, 63);
   
   Wire.begin(9);                // join i2c bus with address #9 for Right Motor
   Wire.onRequest(requestEvent); // register events
@@ -36,7 +33,7 @@ void loop() {
    int timeChange = (now - lastTime);
    if(timeChange>=500 )
    {
-      input = (360.0*1000*(encoderPos-last_pos)) /(1856.0*(now - lastTime));
+      input = (360.0*1000*(encoderPos-last_pos)) /(25.0*(now - lastTime));
       lastTime=now;
       last_pos=encoderPos;
    }
@@ -65,7 +62,7 @@ void encoder()  {                                     // pulse and direction, di
 void requestEvent() {
   int8_t s;
   
-  s= (360.0*(encoderPos-lastpos))/1856.0; //change in position in degrees of the wheel
+  s= (360.0*(encoderPos-lastpos))/25.0; //change in position in degrees of the wheel
   lastpos=encoderPos;
   Wire.write(s); // respond with message of 6 bytes
 }
