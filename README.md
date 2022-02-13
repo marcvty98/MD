@@ -87,3 +87,16 @@ The project design was divided in two parts:
 2. Diseño para el Sistema de Conteo: Every part part for the robot can do Odometry.
 
 ## Electrical Diagrams-
+Finally, all informations about the , electronic devices and partials and 
+  - Electrical connections
+    - Real GPIO's
+    - Wires (and specific colors needed)
+  - Electronic devices
+    - Microcontrollers
+    - Motors
+    - H Bridge
+    - Batteries
+    - Encoder Sensors
+  - Voltage Regulators
+ 
+ And, the diagrams were made with Fritzing, reason why there's a directory called "Parts", if you want to change something. 
