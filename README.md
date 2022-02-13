@@ -62,9 +62,28 @@ These will be here with a .stl or .STL extention.
 Robot setup can be constructed with one or some files with .urdf extension.
 
 ### ydlidar_ros_driver
+To use a Lidar with ros, you need ROS settings too. Well, everything about how lidar sensor works are here.
+
+The current project is completely configured with and no necessary do changes in this directory. But, if you want to know more about the YDLIDAR X4 sensor, you can see his GitHub repository [here](https://github.com/YDLIDAR/ydlidar_ros).
 
 ## 3D Printing stl files
+You will see the following directories and files within: 
+  - Carcasa para KY040
+    - box.STL
+    - tapa.STL
+  - Engranajes
+    - engrj.STL
+    - pinon.STL
+  - Nivelador
+    - eje.STL
+  - Ranura
+    - ranura2.STL
+ 
+ These files are ready to be printed. 
 
 ## Design
+The project design was divided in two parts:
+1. Diseño para el Sistema de Locomoción: Every part for the robot can do moves (rotations and rotations).
+2. Diseño para el Sistema de Conteo: Every part part for the robot can do Odometry.
 
 ## Electrical Diagrams-
