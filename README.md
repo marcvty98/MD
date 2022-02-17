@@ -1,5 +1,8 @@
+# Foreword.
+We recommend downloading the Technical Manual, to know in depth all the variables, software process installation, mechanical devices, communication protocols, electrical connections, CAD/CAM designs. And, in (possible) Furthcoming situations, you will do maintenance work and make improvements.   
+
 # MD
-Well... you and I just wanna know how this thing works, or what doesn´t work (yet :smile: ) in the shortest time ....  
+Well... you and I just wanna know how this thing works, or what doesn´t work (yet :smile: ) in the shortest time .... 
 
 ## [src](https://github.com/marcvty98/MD/tree/main/src)
 1. Here you can find two directories:
@@ -66,7 +69,7 @@ To use a Lidar with ros, you need ROS settings too. Well, everything about how l
 
 The current project is completely configured with and no necessary do changes in this directory. But, if you want to know more about the YDLIDAR X4 sensor, you can see his GitHub repository [here](https://github.com/YDLIDAR/ydlidar_ros).
 
-## 3D Printing stl files
+## [3D Printing stl files](https://github.com/marcvty98/MD/tree/main/3D%20Printing%20stl%20files)
 You will see the following directories and files within: 
   - Carcasa para KY040
     - box.STL
@@ -81,12 +84,12 @@ You will see the following directories and files within:
  
  These files are ready to be printed. 
 
-## Design
+## [Design](https://github.com/marcvty98/MD/tree/main/Design)
 The project design was divided in two parts:
 1. Diseño para el Sistema de Locomoción: Every part for the robot can do moves (rotations and rotations).
 2. Diseño para el Sistema de Conteo: Every part part for the robot can do Odometry.
 
-## Electrical Diagrams-
+## [Electrical Diagrams](https://github.com/marcvty98/MD/tree/main/electrical%20diagrams)
 Finally, all informations about the , electronic devices and partials and 
   - Electrical connections
     - Real GPIO's
