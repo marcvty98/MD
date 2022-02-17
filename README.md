@@ -30,7 +30,7 @@ The specific ROS settings to do SLAM:
   - joint limits
   - mapping configurations
   - path planning
-  - rviz profilesand
+  - rviz profiles
  
  Are here.
 
@@ -67,7 +67,7 @@ Robot setup can be constructed with one or some files with .urdf extension.
 ### ydlidar_ros_driver
 To use a Lidar with ros, you need ROS settings too. Well, everything about how lidar sensor works are here.
 
-The current project is completely configured with and no necessary do changes in this directory. But, if you want to know more about the YDLIDAR X4 sensor, you can see his GitHub repository [here](https://github.com/YDLIDAR/ydlidar_ros).
+The current project is completely configured and no necessary do changes in this directory. But, if you want to know more about the YDLIDAR (X4 sensor), you can see his GitHub repository [here](https://github.com/YDLIDAR/ydlidar_ros).
 
 ## [3D Printing stl files](https://github.com/marcvty98/MD/tree/main/3D%20Printing%20stl%20files)
 You will see the following directories and files within: 
