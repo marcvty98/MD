@@ -24,7 +24,7 @@ catkin_make
 Here there are only two directories with one file each one, the arduino code for each control wheel. Both codes are same, i2c direction is the unique difference between. 
 
 #### [config](https://github.com/marcvty98/MD/tree/main/src/mobile_robot_autonomous_navigation/config)
-The specific ROS settings to do SLAM:
+The specific ROS configurations to do SLAM:
   - local and global map settings
   - velocity, acceleration and jerk limits
   - joint limits
